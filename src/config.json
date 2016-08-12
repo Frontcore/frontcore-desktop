@@ -2,10 +2,12 @@
   "project": {
     "name": "Frontcore",
     "window": {
-      "width": 800,
-      "height": 600,
+      "width": 1024,
+      "height": 768,
+      "minWidth": 1024,
+      "minHeight": 768,
       "isCenter": true,
-      "isResizable": false
+      "isResizable": true
     }
   }
 }
