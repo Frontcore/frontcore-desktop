@@ -3,9 +3,9 @@
     "name": "Frontcore",
     "window": {
       "width": 1024,
-      "height": 768,
+      "height": 600,
       "minWidth": 1024,
-      "minHeight": 768,
+      "minHeight": 600,
       "isCenter": true,
       "isResizable": true
     }

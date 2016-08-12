@@ -34,8 +34,8 @@ function createWindow () {
   let browserWindowConfig = {
       width: config.project.window.width,
       height: config.project.window.height,
-      min-width: config.project.window.minWidth,
-      min-height: config.project.window.minHeight,
+      minWidth: config.project.window.minWidth,
+      minHeight: config.project.window.minHeight,
       center: config.project.window.isCenter,
       title: config.project.name + " v" + product.version,
       resizable: config.project.window.isResizable
