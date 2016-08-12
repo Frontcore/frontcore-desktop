@@ -1,0 +1,29 @@
+{
+  "name": "frontcore-desktop",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frontcore/frontcore-desktop.git"
+  },
+  "scripts": {
+    "start": "electron ./src/frontcore.js",
+    "dev": "electron ./src/frontcore.js --debug"
+  },
+  "author": "Ashwin Hegde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Frontcore/frontcore-desktop/issues"
+  },
+  "homepage": "https://github.com/Frontcore/frontcore-desktop#readme",
+  "engines": {
+    "node": ">=4.2.3"
+  },
+  "dependencies": {
+    "electron-json-storage": "^2.0.0",
+    "electron-shortcut-normalizer": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.5.1"
+  }
+}
