@@ -1,0 +1,11 @@
+{
+  "project": {
+    "name": "Frontcore",
+    "window": {
+      "width": 800,
+      "height": 600,
+      "isCenter": true,
+      "isResizable": false
+    }
+  }
+}
