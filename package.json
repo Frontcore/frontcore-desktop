@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "electron ./src/frontcore.js",
-    "dev": "electron ./src/frontcore.js --debug"
+    "debug": "electron ./src/frontcore.js --debug"
   },
   "author": "Ashwin Hegde",
   "license": "MIT",
