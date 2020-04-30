@@ -8,7 +8,9 @@
   },
   "scripts": {
     "start": "electron ./src/frontcore.js",
-    "debug": "electron ./src/frontcore.js --debug"
+    "debug": "electron ./src/frontcore.js --debug",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Ashwin Hegde",
   "license": "MIT",
@@ -21,9 +23,11 @@
   },
   "dependencies": {
     "electron-json-storage": "^2.0.0",
-    "electron-shortcut-normalizer": "^1.0.0"
+    "electron-shortcut-normalizer": "^1.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "electron-packager": "^7.5.1"
-  }
+  },
+  "snyk": true
 }
